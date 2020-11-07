@@ -9,3 +9,5 @@ I designed a sales automation that can be used in restaurants. This project, whi
 
 ![Adsız](https://user-images.githubusercontent.com/67559667/98443468-7de6a300-211c-11eb-8ee6-a94ffac2d992.png)
 
+![Adsız](https://user-images.githubusercontent.com/67559667/98443619-78d62380-211d-11eb-8709-61c7948c5043.png)
+
