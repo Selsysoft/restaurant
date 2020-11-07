@@ -28,5 +28,8 @@ namespace RESTAURANT_AUTOMATION.Models
         public virtual DbSet<ITEMS> ITEMS { get; set; }
         public virtual DbSet<MUSTERILER> MUSTERILER { get; set; }
         public virtual DbSet<ODEMESEKLI> ODEMESEKLI { get; set; }
+        public virtual DbSet<TRANSACTIONS> TRANSACTIONS { get; set; }
+        public virtual DbSet<ORDERDETAILS> ORDERDETAILS { get; set; }
+        public virtual DbSet<ORDERS> ORDERS { get; set; }
     }
 }

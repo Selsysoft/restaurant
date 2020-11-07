@@ -138,6 +138,12 @@
     <Compile Include="Models\ODEMESEKLI.cs">
       <DependentUpon>RestaurantModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ORDERDETAILS.cs">
+      <DependentUpon>RestaurantModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ORDERS.cs">
+      <DependentUpon>RestaurantModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\RestaurantModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -153,13 +159,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RestaurantModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\TRANSACTIONS.cs">
+      <DependentUpon>RestaurantModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ItemRepositories.cs" />
     <Compile Include="Repositories\MusteriRepositories.cs" />
     <Compile Include="Repositories\OdemeSekliRepositories.cs" />
+    <Compile Include="Repositories\OrderRepositories.cs" />
     <Compile Include="ViewModel\ItemViewModel.cs" />
     <Compile Include="ViewModel\MusteriViewModel.cs" />
     <Compile Include="ViewModel\OdemeSekliViewModel.cs" />
+    <Compile Include="ViewModel\OrderDetailsViewModel.cs" />
+    <Compile Include="ViewModel\OrdersViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

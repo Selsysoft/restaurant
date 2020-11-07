@@ -8,6 +8,10 @@
         <EntityTypeShape EntityType="RESTAURANTDBModel.ITEMS" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="RESTAURANTDBModel.MUSTERILER" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="RESTAURANTDBModel.ODEMESEKLI" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RESTAURANTDBModel.TRANSACTIONS" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RESTAURANTDBModel.ORDERDETAILS" Width="1.5" PointX="5.625" PointY="4" />
+        <EntityTypeShape EntityType="RESTAURANTDBModel.ORDERS" Width="1.5" PointX="3.375" PointY="4" />
+        <AssociationConnector Association="RESTAURANTDBModel.FK_ORDERDETAILS_ORDERS" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

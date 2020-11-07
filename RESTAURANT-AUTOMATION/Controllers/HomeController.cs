@@ -1,5 +1,6 @@
 ﻿using RESTAURANT_AUTOMATION.Models;
 using RESTAURANT_AUTOMATION.Repositories;
+using RESTAURANT_AUTOMATION.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,13 @@ namespace RESTAURANT_AUTOMATION.Controllers
         {
             decimal UnitPrice = objRESTAURANTDBEntities.ITEMS.Single(model => model.ID == itemId).ITEMTUTAR;
             return Json(UnitPrice, JsonRequestBehavior.AllowGet);
+        }
+        [HttpPost]
+        public JsonResult Index(OrdersViewModel objOrdersViewModel)
+        {
+            OrderRepositories objOrderRepositories = new OrderRepositories();
+            objOrderRepositories.AddOrder(objOrdersViewModel);
+            return Json("Your Order has been Succesfully Placed.", JsonRequestBehavior.AllowGet);
         }
     }
 }
