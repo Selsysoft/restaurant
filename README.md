@@ -3,3 +3,6 @@ I designed a sales automation that can be used in restaurants. This project, whi
 
 
 ![Adsız](https://user-images.githubusercontent.com/67559667/98443261-4fb49380-211b-11eb-8baf-d0ab13fcab64.png)
+
+
+![Adsız](https://user-images.githubusercontent.com/67559667/98443396-0fa1e080-211c-11eb-959b-179e846357dc.png)
